@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score</title>
+    <link rel="stylesheet" href="/static/css/score.css" />
+  </head>
+  <body>
+    <div class="box">
+      {% if score>2 %}
+      <h1>Your score is {{score}}🤩✨</h1>
+      {%else%}
+      <h1>Your score is {{score}}😢🎈</h1>
+      <div class="try">
+        <a href="{{url_for('score')}}">TRY AGAIN</a>
+      </div>
+      {%endif%}
+    </div>
+  </body>
+</html>

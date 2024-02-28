@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration-Login</title>
+    <link rel="stylesheet" href="/static/css/registration.css" />
+    <script>
+      window.onload = function showAlert() {
+        alert("Something is wrong");
+      };
+    </script>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Login</h1>
+      <form action="/data" method="POST">
+        <div class="inputBox">
+          <label for="userName">Username</label>
+          <input
+            type="text"
+            name="userName"
+            id="userName"
+            placeholder="your username"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <div class="inputBox">
+          <label for="userPassword">Password</label>
+          <input
+            type="password"
+            name="userPassword"
+            id="userPassword"
+            placeholder="your password"
+            required
+          />
+        </div>
+        {% if txt %}
+        <script>
+          showAlert();
+        </script>
+        {%endif%}
+        <div class="click">
+          <input type="submit" value="Login" class="button" />
+          <a href="{{url_for('register')}}">Don't have an account.</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

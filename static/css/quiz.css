@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/static/img/PTD.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+fieldset {
+  border: 2px solid purple;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.no {
+  display: flex;
+}
+.no input {
+  display: none;
+}
+.no input:checked + label {
+  outline: 4px solid purple;
+}
+
+img {
+  margin: auto;
+  padding: 0px;
+  width: 120px;
+  display: block;
+  height: 120px;
+  object-fit: cover;
+}
+.wide {
+  margin: 5px;
+}
+
+.box {
+  background-color: rgba(200, 114, 253, 0.808);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  margin: 20px auto;
+  padding: 10px 40px;
+  width: 700px;
+}
+
+.wide legend {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 450;
+  font-family: cursive;
+  padding: 10px;
+}
+.wide label {
+  color: #fff;
+  font-size: 20px;
+  margin: auto;
+  padding: 0;
+}
+.end {
+  text-align: end;
+}
+.button {
+  font-family: sans-serif;
+  background-color: rgb(205, 135, 248, 0.8);
+  font-size: 18px;
+  border: 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+  letter-spacing: 2px;
+  margin: 8px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: white;
+  color: rgb(205, 135, 248, 0.8);
+}

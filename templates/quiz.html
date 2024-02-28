@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/static/css/quiz.css" />
+  </head>
+  <body>
+    <div class="box">
+      <h1>Quiz...</h1>
+      <form action="/quizdata" method="POST">
+        <div class="wide">
+          <fieldset>
+            <legend>The oldest member in BTS?</legend>
+            <div class="no">
+              <input type="radio" id="myg" name="oldest" value="1" />
+              <label for="myg"> <img src="/static/img/meow2.jpg" /> </label>
+
+              <input type="radio" id="hobi" name="oldest" value="2" />
+              <label for="hobi"><img src="/static/img/hobi2.jpg" /> </label>
+              <input type="radio" id="jin" name="oldest" value="3" />
+              <label for="jin"><img src="/static/img/Jin.jpg" /></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>How many members in BTS?</legend>
+            <input type="radio" id="two" name="member" value="1" />
+            <label for="two">Two</label><br />
+
+            <input type="radio" id="six" name="member" value="2" />
+            <label for="six">Six</label><br />
+            <input type="radio" id="seven" name="member" value="3" />
+            <label for="seven">Seven</label><br />
+          </fieldset>
+          <fieldset>
+            <legend>Who is the youngest in BTS?</legend>
+            <input type="radio" id="jk" name="youngest" value="1" />
+            <label for="jk">Jungkook</label><br />
+            <input type="radio" id="v" name="youngest" value="2" />
+            <label for="v">V</label><br />
+
+            <input type="radio" id="jimin" name="youngest" value="3" />
+            <label for="jimin">Jimin</label><br />
+          </fieldset>
+
+          <fieldset>
+            <legend>What is Jimin's birth year?</legend>
+
+            <input type="radio" id="95" name="year" value="2" />
+            <label for="95">1995</label><br />
+            <input type="radio" id="96" name="year" value="1" />
+            <label for="96">1996</label><br />
+
+            <input type="radio" id="97" name="year" value="3" />
+            <label for="97">1997</label><br />
+          </fieldset>
+          <fieldset>
+            <legend>BTS debut date</legend>
+            <input type="radio" id="oct13" name="debut" value="2" />
+            <label for="oct13">October 13, 2013</label><br />
+
+            <input type="radio" id="june13" name="debut" value="1" />
+            <label for="june13">June 13, 2013</label><br />
+            <input type="radio" id="july9" name="debut" value="3" />
+            <label for="july9">July 9, 2013</label><br />
+          </fieldset>
+        </div>
+        <div class="end">
+          <button type="submit" class="button">Check score</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
