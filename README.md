@@ -16,4 +16,4 @@ After learning more things in programming, I will polish this project.
 #### How did I make it?
 
 As I mentioned, this is a website properly. So, the project includes HTML and CSS.
-I used "flask" to link the data from my HTML forms. If user entered valid email and password in signup form, whether username and password match in login form or not, are checked by Python. In ihis case, I made up two usernames and their own passwords (123456 for winnie, 111111 for logan) as I don't have a database yet. And checking how many score did the user get is also worked by Python.
+I used "flask" to link the data from my HTML forms. If user entered valid email and password in signup form, whether username and password match in login form or not, are checked by Python. In ihis case, I made up two usernames and their own passwords ("123456" for winnie, "111111" for logan) as I don't have a database yet. And checking how many score did the user get is also worked by Python.
