@@ -2,7 +2,7 @@
 
 #### Video Demo:
 
-- [video demo](https://youtu.be/l_fuwlRFaGg)
+- [K-pop; Choose One Quiz](https://youtu.be/l_fuwlRFaGg)
 
 #### Description:
 
